@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.container {
+    text-align: left;
+}
+
+.images {
+    display: flex;
+    align-items: left; /* Alinea verticalmente */
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.image33 {
+    width: 100px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 10px; /* Espacio entre la imagen y el texto */
+}
+
+img {
+    width: 223px;
+    height: 63px;
+}
+
+.text-part {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -500px; /* Espacio entre la imagen y el texto */
+    margin-top: 20px;
+}
